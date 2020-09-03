@@ -1,0 +1,43 @@
+.hero{
+  width:70%;
+  //background:red;
+  text-align: left;
+
+  &.mobile--hero{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    @media #{$laptop}{
+      position:static;
+      transform: none;
+    }
+  }
+
+  &.text--hero{
+    @media #{$laptop}{
+      width:40%;
+    }
+
+    h1{
+      font-size:62px;
+      margin:0;
+    }
+    p{
+      margin-top:0;
+    }
+    p,a{
+      font-size:20px;
+    }
+
+    .btn-group{
+      margin-top:50px;
+    }
+  }
+
+  h1{
+    font-size:32px;
+    font-weight:200;
+  }
+}
