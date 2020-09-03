@@ -17,6 +17,10 @@
 
   &.text--hero{
     @media #{$laptop}{
+      width:50%;
+    }
+
+    @media #{$largeDesktop}{
       width:40%;
     }
 
