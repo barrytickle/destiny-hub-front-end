@@ -5960,11 +5960,6 @@ body, html {
     width: 50%;
   }
 }
-@media (min-width: 1650px) {
-  .hero.text--hero {
-    width: 40%;
-  }
-}
 .hero.text--hero h1 {
   font-size: 62px;
   margin: 0;
